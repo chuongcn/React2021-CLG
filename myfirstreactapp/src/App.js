@@ -1,8 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Car from "./Car";
+import Xe from "./Xe";
 
 function App() {
-  return (
+  const html = (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -15,11 +17,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React - Hello World and Hello Karmar
+          Learn React - Hello World !
         </a>
+        <Car/>
+        <Xe />
       </header>
     </div>
   );
+  return html;
 }
 
 export default App;
