@@ -19,8 +19,8 @@ function App() {
         >
           Learn React - Hello World !
         </a>
-        <Car/>
-        <Xe />
+        <Xe color="red" value="Tôi là xe màu đỏ" />
+        <Xe color="blue" value="Tôi là xe màu xanh" />
       </header>
     </div>
   );
