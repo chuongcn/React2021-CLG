@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Car from "./Car";
 import Xe from "./Xe";
+import MyForm from "./MyForm";
 
 function App() {
   const html = (
@@ -20,6 +21,7 @@ function App() {
           Learn React - Hello World !
         </a>
         <Xe color="red" value="Tôi là xe màu đỏ" />
+        <MyForm />
         
      
       </header>
