@@ -20,6 +20,7 @@ function App() {
           Learn React - Hello World !
         </a>
         <Xe color="red" value="Tôi là xe màu đỏ" />
+        
      
       </header>
     </div>
